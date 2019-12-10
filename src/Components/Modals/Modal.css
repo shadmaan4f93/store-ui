@@ -1,0 +1,128 @@
+.login-modal {
+    display: block;
+    width: 1200px;
+    padding-left: 0px;
+}
+
+.login-left-img {
+    position: relative;
+}
+
+.login-left-img>img {
+    max-width: 100%;
+
+}
+
+.login-img-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+}
+
+.login-img-overlay h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.login-img-overlay p {
+    font-size: 16px;
+    color: #f1f1f1;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.login-right-content {
+    position: relative;
+}
+
+.login-close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    font-size: 32px;
+    line-height: 1px;
+}
+
+
+.input-row h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.input-row input {
+    border: none;
+    border-bottom: 2px solid #f1f1f1;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #313131;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    outline: none;
+}
+
+.modal-acc {
+    padding-left: 10px;
+}
+
+.modal-acc p {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #424242;
+}
+
+.modal-text p span {
+    color: #7ed321;
+}
+
+.button button {
+    padding: 15px 45px;
+    background-color: #7ed321;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    transition: all .4s;
+    border-radius: 30px;
+    border: 1px solid #7ed321;
+    outline: none;
+}
+
+.button button:hover {
+    border: 1px solid #7ed321;
+    background-color: transparent;
+    color: #7ed321;
+}
+
+.swiss-right p {
+    font-size: 13px;
+    color: #424242;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.swiss-right p span {
+    color: #424242 !important;
+}
+
+.form-sec {
+    padding-top: 80px;
+}
+
+.login-modal .modal-body {
+    padding: 0px;
+}
+
+.login-modal .modal-content {
+    border: 0px;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "moe-gifts-app-newui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "cookie": "^0.4.0",
+    "local-storage": "^2.0.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-cookie": "^4.0.1",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-responsive-modal": "^4.0.1",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.1.1",
+    "react-stripe-elements": "^5.0.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --out build/static/css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "glob-all": "^3.1.0",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

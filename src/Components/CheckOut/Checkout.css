@@ -1,0 +1,16 @@
+/* *************************************************************
+CART SUMMARY
+************************************************************* */
+
+.cart-summary table{
+    width: 100%;
+}
+.cart-summary tr{
+    height: 200px;
+}
+.cart-summary td,th{
+    width: 300px;
+}
+.cart-summary td img{
+    width: 100px;
+}

@@ -1,0 +1,286 @@
+.footer-sec {
+    background-image: url(../../images/footer-bg.png);
+    background-size: cover;
+    background-position: top;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-sec .col-md-3.footer-about,
+.footer-sec .col-md-6,
+.footer-sec .news-letter .col-md-4 {
+    padding-left: 0;
+}
+
+.footer-sec .col-md-3,
+.footer-sec .col-md-6,
+.footer-sec .news-letter .col-md-5 {
+    padding-right: 0;
+}
+
+.footer-about img {
+    margin-top: 20px;
+    max-width: 160px;
+}
+
+.footer-about p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #fff;
+    margin-top: 15px;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.footer-sec .contact-info h3 {
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+img {
+    vertical-align: middle;
+}
+
+hr,
+img {
+    border: 0;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-sec .contact-info p,
+.footer-sec .contact-info ul li a,
+.footer-sec .copy-text p,
+.footer-sec .follow-us h2 {
+    color: #fff;
+}
+
+.contact-info ul li a {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    padding-top: 7px;
+    display: block;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.foot-a ul li a i {
+    transition: all .3s;
+    color: #ff3c20;
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    font-size: 18px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact i {
+    float: left;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.contact i,
+.contact-info ul li a:hover {
+    color: #ff3c20;
+}
+
+.footer-sec .contact-info p,
+.footer-sec .contact-info ul li a,
+.footer-sec .copy-text p,
+.footer-sec .follow-us h2 {
+    color: #fff;
+}
+
+.contact p {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.contact-info p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #282828;
+    line-height: 1.6;
+}
+
+.follow-us h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.follow a {
+    padding-left: 15px;
+    font-size: 26px;
+    color: #fff;
+    transition: all .4s;
+}
+
+.follow a:first-child {
+    padding-left: 0;
+}
+
+.footer-sec .news-letter {
+    background-color: transparent;
+}
+
+.news-letter {
+    margin-top: 15px;
+}
+
+.letter-news {
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+.footer-sec .news-letter .col-md-4 {
+    padding-top: 15px;
+}
+
+.letter i {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    float: left;
+    padding-top: 5px;
+}
+
+.letter p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.letter h2 {
+    font-size: 42px;
+    color: #fff;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.sign-news p {
+    font-size: 15px;
+    color: #fff;
+    max-width: 100%;
+    font-weight: 400;
+    margin-top: 23px;
+    line-height: 1.5;
+}
+
+.email-address input {
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+    position: relative;
+    font-size: 19px;
+    color: #b1b1b1;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.email-address a {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #fff;
+    display: block;
+    line-height: 40px;
+}
+
+.footer-sec .news-letter .email-address .round {
+    right: 10px;
+    transition: all .4s;
+}
+
+.round {
+    width: 40px;
+    background-color: #232f3e;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    right: 20px;
+    border-radius: 50%;
+    transition: all .4s;
+}
+
+.round,
+.top-bar .bor {
+    height: 40px;
+    display: inline-block;
+}
+
+.footer-sec .copy-right {
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.copy-right {
+    background-color: #e8e8e8;
+    padding: 0 0 10px;
+}
+
+.right-copy {
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+#toper {
+    background-color: #ff4001;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#toper i {
+    color: #fff;
+    line-height: 40px;
+    font-size: 28px;
+}
+
+.copy-image a {
+    display: inline-block;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+ol, ul {
+    margin-bottom: 10px;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+
+
+
+
+

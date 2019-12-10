@@ -1,0 +1,390 @@
+.grid-page .header-main {
+    background-image: url(../images/checkout_head.jpg);
+}
+
+.grid-page .page-row,
+.pull-right,
+.shp-cart-btn {
+    text-align: center;
+}
+
+.header-main {
+    background-size: cover;
+    padding: 100px 0 80px;
+}
+
+.header-main h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #fff;
+}
+
+.header-main .link-sec span {
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.header-main .link-sec i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.detail-page .container.padd-80 {
+    padding-bottom: 0;
+}
+
+.padd-80 {
+    padding: 80px 0;
+}
+
+.detail-left {
+    background-color: #f7f7f7;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.detail-left,
+.error-page .search {
+    position: relative;
+}
+
+.detail-left .zoom-btn {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #d5d5d5;
+    line-height: 40px;
+    text-align: center;
+    bottom: 175px;
+    z-index: 6;
+}
+
+.detail-top h1 {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.detail-top h6 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ababab;
+}
+
+.detail-top .rating {
+    margin-top: 7px;
+}
+
+.detail-top .rating i {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #f9be32;
+}
+
+.detail-top .rating a,
+.detail-top .rating span {
+    color: #ababab;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.detail-top .rating a {
+    font-style: italic;
+    float: right;
+}
+
+.rate {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.rate h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ff3c20;
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-right: 15px;
+    line-height: 1;
+}
+
+.rate h2 del {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ababab;
+    margin-left: 8px;
+    vertical-align: inherit;
+    margin-top: -3px;
+}
+
+p {
+    color: #ababab;
+}
+
+.rate span {
+    float: right;
+    font-size: 16px;
+    color: #49b72c;
+}
+
+.detail-right .detail,
+.rate span {
+    margin-top: 15px;
+}
+
+.rate span i {
+    font-size: 18px;
+}
+
+.detail-right .detail,
+.detail-right ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.detail-right .detail,
+.rate span {
+    margin-top: 15px;
+}
+
+ol,
+ul {
+    margin-bottom: 10px;
+}
+
+.detail-right .detail .sub-menu a.main-a {
+    font-weight: 700;
+    color: #313131;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.detail .sub-menu a i {
+    float: right;
+}
+
+.detail-right .detail p,
+.detail-right .detail.feature ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #999;
+}
+
+.detail-btm {
+    margin-top: 20px;
+}
+
+.quantity-box {
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.detail-row p {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.quantity-box #field1 {
+    margin-top: 5px;
+    float: left;
+}
+
+.quantity-box #field1 button#sub {
+    margin-right: -1px;
+    float: left;
+}
+
+.quantity-box #field1 button {
+    border: 1px solid #e7e7e7;
+    background-color: transparent;
+    font-size: 14px;
+    height: 46px;
+    width: 42px;
+    text-align: center;
+}
+
+.quantity-box .sub {
+    border-radius: 30px 0 0 30px;
+}
+
+.quantity-box .add {
+    border-radius: 0 30px 30px 0;
+}
+
+.quantity-box #field1 input {
+    border: 1px solid #e7e7e7;
+    width: 66px;
+    text-align: center;
+    height: 46px;
+    float: left;
+    color: #ababab;
+}
+
+.quantity-box #field1 button#add {
+    margin-left: -1px;
+    float: left;
+}
+
+.quantity-box #field1 button {
+    border: 1px solid #e7e7e7;
+    background-color: transparent;
+    font-size: 14px;
+    height: 46px;
+    width: 42px;
+    text-align: center;
+}
+
+#item-count-input::-webkit-inner-spin-button,
+#item-count-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.detail-page .coupon {
+    padding: 14px 35px;
+    float: left;
+}
+
+.coupon {
+    background-color: #ff3c20;
+    padding: 16px 60px;
+    text-align: center;
+    margin-left: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 3px;
+    border-radius: 30px;
+    transition: all .3s;
+    border: 1px solid #ff3c20;
+}
+
+.coupon:disabled {
+    background: #ff9292;
+    border: 1px solid #ff9292;
+}
+
+
+
+.action-icon {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.action-icon a {
+    font-size: 16px;
+    color: #dbdbdb;
+    transition: all .3s;
+    margin-left: 8px;
+}
+
+.action-icon a,
+ul.size li a {
+    font-weight: 400;
+    display: inline-block;
+}
+
+.action-icon a i {
+    font-size: 20px;
+    margin-right: 7px;
+    color: #dbdbdb;
+    transition: all .3s;
+    vertical-align: middle;
+}
+
+.product-tab {
+    border: 1px solid #dcdcdc;
+    position: relative;
+    margin: 50px 0;
+}
+
+
+.tab-left-side {
+    border-right: 1px solid #dcdcdc;
+    border-bottom: none;
+    padding-right: 0px;
+}
+
+.product-tab .nav-pills .nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    padding: 15px 0 15px 25px;
+    border-bottom: 1px solid #dcdcdc;
+    border-left: 5px solid transparent;
+    transition: all .3s;
+    margin: 0;
+    display: block !important;
+    border-radius: 0px;
+}
+
+.product-tab .nav-pills .nav-link.active,
+.product-tab .nav-pills .show>.nav-link {
+    background-color: #efefef;
+    border-left: 5px solid #232f3e;
+}
+
+.product-tab .tab-content {
+    width: 100%;
+    float: left;
+}
+
+.product-tab .tab-pane {
+    padding: 35px;
+}
+
+
+.detail-page .tab-pane p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #868686;
+    margin-bottom: 15px;
+}
+
+.detail-page .tab-pane p b {
+    font-weight: 700;
+    color: #232f3e;
+}
+
+.slider-head h3 {
+    position: relative;
+    padding-bottom: 12px;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.detail-page .tranding {
+    padding: 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .grid-page .product-body p {
+        font-size: 16px;
+    }
+}
